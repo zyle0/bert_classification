@@ -9,7 +9,7 @@ from tqdm import tqdm
 
 
 # 加载预训练的BERT模型和分词器
-model_name = r'C:\Users\ZY\.cache\huggingface\hub\models--bert-base-chinese'
+model_name = r'.cache\huggingface\hub\models--bert-base-chinese'
 tokenizer = BertTokenizer.from_pretrained(model_name)
 bert = BertModel.from_pretrained(model_name)
 
